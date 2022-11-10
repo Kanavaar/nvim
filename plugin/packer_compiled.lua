@@ -74,10 +74,30 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
+  ["edge.vim"] = {
+    loaded = true,
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/edge.vim",
+    url = "https://github.com/kanavaar/edge.vim"
+  },
+  gruvbox = {
+    loaded = true,
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/gruvbox",
+    url = "https://github.com/morhetz/gruvbox"
+  },
+  ["nvim-colorizer.lua"] = {
+    loaded = true,
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
+    url = "https://github.com/NvChad/nvim-colorizer.lua"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/tilman/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  sonokai = {
+    loaded = true,
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/sonokai",
+    url = "https://github.com/kanavaar/sonokai"
   }
 }
 
