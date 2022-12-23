@@ -28,6 +28,9 @@ return require('packer').startup(function(use)
   -- Fugitive
   use ('tpope/vim-fugitive')
 
+  -- Delimitmate
+  use('Raimondi/delimitMate')
+
   -- lsp
   use {
     'VonHeikemen/lsp-zero.nvim',

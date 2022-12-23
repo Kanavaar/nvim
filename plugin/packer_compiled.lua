@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/tilman/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  delimitMate = {
+    loaded = true,
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/delimitMate",
+    url = "https://github.com/Raimondi/delimitMate"
+  },
   ["edge.vim"] = {
     loaded = true,
     path = "/home/tilman/.local/share/nvim/site/pack/packer/start/edge.vim",
