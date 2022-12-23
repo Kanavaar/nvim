@@ -84,6 +84,11 @@ _G.packer_plugins = {
     path = "/home/tilman/.local/share/nvim/site/pack/packer/start/gruvbox",
     url = "https://github.com/morhetz/gruvbox"
   },
+  ["kanagawa.nvim"] = {
+    loaded = true,
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/kanagawa.nvim",
+    url = "https://github.com/rebelot/kanagawa.nvim"
+  },
   ["nvim-colorizer.lua"] = {
     loaded = true,
     path = "/home/tilman/.local/share/nvim/site/pack/packer/start/nvim-colorizer.lua",
@@ -94,10 +99,15 @@ _G.packer_plugins = {
     path = "/home/tilman/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  sonokai = {
+  ["plenary.nvim"] = {
     loaded = true,
-    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/sonokai",
-    url = "https://github.com/kanavaar/sonokai"
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/plenary.nvim",
+    url = "https://github.com/nvim-lua/plenary.nvim"
+  },
+  ["telescope.nvim"] = {
+    loaded = true,
+    path = "/home/tilman/.local/share/nvim/site/pack/packer/start/telescope.nvim",
+    url = "https://github.com/nvim-telescope/telescope.nvim"
   }
 }
 

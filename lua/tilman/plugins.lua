@@ -5,16 +5,19 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- colorscheme
-<<<<<<< HEAD
   use 'morhetz/gruvbox'
   use 'kanavaar/edge.vim'
-  use 'kanavaar/sonokai'
-=======
-  use 'kanavaar/edge.vim'
->>>>>>> bc17d14d31b6b5e4046aaf944e630908dc8f4f29
+  use 'rebelot/kanagawa.nvim'
 
   -- colors shown in neovim
-  use 'https://github.com/NvChad/nvim-colorizer.lua'
+  use 'NvChad/nvim-colorizer.lua'
+
+  -- Telescope
+  use {
+    'nvim-telescope/telescope.nvim', tag = '0.1.0',
+    -- or                            , branch = '0.1.x',
+    requires = { {'nvim-lua/plenary.nvim'} }
+  }
 
 
 end)
