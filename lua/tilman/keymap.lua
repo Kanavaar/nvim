@@ -31,6 +31,10 @@ keymap("n", "<C-Down>", ":resize +2<CR>", opts)
 keymap("n", "<C-Left>", ":vertical-resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical-resize +2<CR>", opts)
 
+-- Move selected text
+vim.keymap.set("v", "J", ":m '>+1<CR>gv=gv")
+vim.keymap.set("v", "K", ":m '>-2<CR>gv=gv")
+
 -- File manager
 vim.keymap.set("n", "<leader>e", vim.cmd.Ex)
 

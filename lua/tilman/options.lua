@@ -20,3 +20,4 @@ opt.ignorecase = true --ignore case when searching
 opt.hlsearch = true -- hightlight searches
 opt.fileencoding = "utf-8" --set utf-8 as encoding
 opt.wrap = false -- do not wrap show on line
+opt.undofile = true -- undofile enabled
