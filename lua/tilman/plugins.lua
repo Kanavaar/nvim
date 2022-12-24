@@ -9,6 +9,9 @@ return require('packer').startup(function(use)
   use 'kanavaar/edge.vim'
   use 'rebelot/kanagawa.nvim'
 
+  -- Dev Icons
+  use('kyazdani42/nvim-web-devicons')
+
   -- Lualine
   use {
     'nvim-lualine/lualine.nvim',
