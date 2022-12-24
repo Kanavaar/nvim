@@ -9,6 +9,15 @@ return require('packer').startup(function(use)
   use 'kanavaar/edge.vim'
   use 'rebelot/kanagawa.nvim'
 
+  -- Lualine
+  use {
+    'nvim-lualine/lualine.nvim',
+    requires = { 'kyazdani42/nvim-web-devicons', opt = true }
+  }
+
+  -- Bufferline
+  use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
+
   -- colors shown in neovim
   use 'NvChad/nvim-colorizer.lua'
 
