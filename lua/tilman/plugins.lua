@@ -22,7 +22,7 @@ return require('packer').startup(function(use)
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
   -- colors shown in neovim
-  use 'NvChad/nvim-colorizer.lua'
+  use {'NvChad/nvim-colorizer.lua', opt = true, cmd = "ColorizerToggle", ft = "css"}
 
   -- Telescope
   use {
@@ -64,6 +64,12 @@ return require('packer').startup(function(use)
       {'L3MON4D3/LuaSnip'},
       {'rafamadriz/friendly-snippets'},
     }
+  }
+
+  -- Emmet
+  use {
+    'mattn/emmet-vim',
+    ft = {"html"},
   }
 
 
