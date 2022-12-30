@@ -22,7 +22,7 @@ return require('packer').startup(function(use)
   use {'akinsho/bufferline.nvim', tag = "v3.*", requires = 'nvim-tree/nvim-web-devicons'}
 
   -- colors shown in neovim
-  use {'NvChad/nvim-colorizer.lua', opt = true, cmd = "ColorizerToggle", ft = "css"}
+  use {'NvChad/nvim-colorizer.lua'}
 
   -- Telescope
   use {
