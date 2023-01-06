@@ -5,9 +5,10 @@ return require('packer').startup(function(use)
   use 'wbthomason/packer.nvim'
 
   -- colorscheme
-  use 'morhetz/gruvbox'
   use 'kanavaar/edge.vim'
+  use 'morhetz/gruvbox'
   use 'rebelot/kanagawa.nvim'
+  use 'Mofiqul/vscode.nvim'
 
   -- Dev Icons
   use('kyazdani42/nvim-web-devicons')
