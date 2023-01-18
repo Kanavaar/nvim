@@ -9,6 +9,7 @@ return require('packer').startup(function(use)
   use 'morhetz/gruvbox'
   use 'rebelot/kanagawa.nvim'
   use 'Mofiqul/vscode.nvim'
+  use {'decaycs/decay.nvim', as = 'decay'}
 
   -- Dev Icons
   use('kyazdani42/nvim-web-devicons')
