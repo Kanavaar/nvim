@@ -32,8 +32,8 @@ keymap("n", "<C-Left>", ":vertical-resize -2<CR>", opts)
 keymap("n", "<C-Right>", ":vertical-resize +2<CR>", opts)
 
 -- Buffer stuff
-keymap("n", "<leader>bn", ":bnext", opts)
-keymap("n", "<leader>bp", ":bprev", opts)
+keymap("n", "<leader>bn", ":bnext<cr>", opts)
+keymap("n", "<leader>bp", ":bprev<cr>", opts)
 
 -- Move selected text
 vmap("v", "J", ":m '>+1<CR>gv=gv")
