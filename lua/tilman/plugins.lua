@@ -9,7 +9,6 @@ return require('packer').startup(function(use)
   use 'morhetz/gruvbox'
   use 'rebelot/kanagawa.nvim'
   use 'Mofiqul/vscode.nvim'
-  use {'decaycs/decay.nvim', as = 'decay'}
 
   -- Dev Icons
   use('kyazdani42/nvim-web-devicons')
@@ -72,6 +71,13 @@ return require('packer').startup(function(use)
   use {
     'mattn/emmet-vim',
     ft = {"html"},
+  }
+
+  -- Markdown Table Mode
+  use {
+    'dhruvasagar/vim-table-mode',
+    ft = {'markdown'},
+    cmd = {'TableModeToggle'}
   }
 
 
