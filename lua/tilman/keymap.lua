@@ -49,3 +49,5 @@ keymap("n", "<leader>w", ":w<cr>", opts)
 -- INSERT
 keymap("i", "jk", "<ESC>", opts)
 
+-- Terminal
+tnoremap <Esc> <C-\><C-n>
