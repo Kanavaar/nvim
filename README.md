@@ -7,7 +7,7 @@ My config of neovim
 To install just clone this repo to `~/.config/nvim`
 
 ```sh
-git clone https::/github.com/kanavaar/nvim ~/.config/nvim
+git clone https://github.com/kanavaar/nvim ~/.config/nvim
 
 nvim
 ```
