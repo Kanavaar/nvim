@@ -80,4 +80,7 @@ require('lazy').setup({
   -- Markdown Table Mode
   'dhruvasagar/vim-table-mode',
 
+  -- Yuck Domain Specific Language Plugin For Eww
+  'elkowar/yuck.vim',
+
 })
