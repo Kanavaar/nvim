@@ -17,6 +17,7 @@ require('lazy').setup({
   'morhetz/gruvbox',
   'rebelot/kanagawa.nvim',
   'Mofiqul/vscode.nvim',
+  'folke/tokyonight.nvim',
 
   -- Dev Icons
   'nvim-tree/nvim-web-devicons',
