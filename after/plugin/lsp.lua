@@ -3,10 +3,11 @@ local lsp = require('lsp-zero')
 lsp.preset('recommended')
 
 lsp.ensure_installed({
-  'gopls',
+  -- 'gopls',
   'rust_analyzer',
-  'sumneko_lua',
+  'lua_ls',
   'clangd',
+  'gopls',
 })
 
 local cmp = require('cmp')
