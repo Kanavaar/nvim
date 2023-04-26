@@ -13,7 +13,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
   -- colorscheme
-  'kanavaar/edge.vim',
+  'sainnhe/edge',
   'morhetz/gruvbox',
   'rebelot/kanagawa.nvim',
   'Mofiqul/vscode.nvim',
@@ -49,7 +49,7 @@ require('lazy').setup({
   -- Fugitive
   'tpope/vim-fugitive',
 
-  -- Delimitmate
+  -- Perantheses
   'Raimondi/delimitMate',
 
   -- lsp
