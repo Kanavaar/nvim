@@ -7,7 +7,6 @@ lsp.ensure_installed({
   'rust_analyzer',
   'lua_ls',
   'clangd',
-  'gopls',
 })
 
 local cmp = require('cmp')
