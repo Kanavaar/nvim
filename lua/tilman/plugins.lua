@@ -29,7 +29,7 @@ require('lazy').setup({
   },
 
   -- Bufferline
-  {'akinsho/bufferline.nvim', tag = "v3.*", dependencies = 'nvim-tree/nvim-web-devicons'},
+  {'akinsho/bufferline.nvim', tag = "v4.1.0", dependencies = 'nvim-tree/nvim-web-devicons'},
   -- colors shown in neovi
   'NvChad/nvim-colorizer.lua',
 
